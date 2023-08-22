@@ -1259,3 +1259,44 @@ div form.admin-upload .row textarea {
     resize: none;
     padding: 5px;
 }
+
+/* styles for the admin journals page */
+div.admin-journal-page a {
+    text-decoration: none;
+    color: #4f5671;
+    font-size: 15px;
+}
+
+div.admin-journal-page a:hover {
+    text-decoration: underline;
+}
+
+div.journal-page span {
+    color: #f00;
+}
+
+button.add-journal {
+    border: none;
+    border-radius: 10px;
+    background-color: #4f5671;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+button.add-journal span {
+    color: #fff;
+    padding-right: 10px;
+}
+
+/* styles for the issues page */
+div.issue-papers div {
+    display: block;
+}
+
+div.issue-papers div p {
+    font-weight: 400;
+    font-size: 12;
+}
