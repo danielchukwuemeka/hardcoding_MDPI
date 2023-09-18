@@ -1300,3 +1300,9 @@ div.issue-papers div p {
     font-weight: 400;
     font-size: 12;
 }
+
+@media screen and (max-width: 768px) {
+    #carouselExampleDark {
+        display: none;
+    }
+}
